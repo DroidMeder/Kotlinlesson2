@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Kotlinlesson2</string>
+    <string name="random_image">Random image</string>
+    <string name="submit">Submit</string>
+    <string name="enter_url">Введите ссылку на картинку</string>
+    <string name="image">Image</string>
+    <string name="invalid_url">Неправилная ссылка на картину!!!</string>
+    <string name="uri_1">https://avatanplus.com/files/resources/mid/5c00f2aac77cc16763b3eb41.png</string>
+    <string name="uri_2">http://seo-doka.ru/upload/image/format_gif.gif</string>
+    <string name="uri_3">https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg</string>
+    <string name="uri_4">https://p4.wallpaperbetter.com/wallpaper/38/503/617/xiao-genshin-impact-genshin-impact-hd-wallpaper-preview.jpg</string>
+    <string name="uri_5">https://frazy.su/wp-content/uploads/2016/04/Nature___Seasons___Spring_Night_over_the_spring_river_067788_1.jpg</string>
+    <string name="uri_6" tools:ignore="TypographyDashes">https://nanoreview.net/uploads/posts/2021-12/1638362588_photo_2021-12-01_14-42-38.jpg</string>
+    <string name="uri_7" tools:ignore="TypographyDashes">https://klike.net/uploads/posts/2019-06/1560664198_5.jpg</string>
+    <string name="uri_8">https://fotogora.ru/img/Peter%20Majkut.jpg</string>
+    <string name="uri_9">https://upload.wikimedia.org/wikipedia/commons/a/a1/Johnrogershousemay2020.webp</string>
+    <string name="uri_10">https://st.depositphotos.com/2547675/3009/i/450/depositphotos_30094505-stock-photo-time-clock.jpg</string>
+</resources>
