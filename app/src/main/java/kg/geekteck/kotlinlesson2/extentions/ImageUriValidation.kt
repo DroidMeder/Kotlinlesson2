@@ -10,7 +10,8 @@ import java.util.*
 private val liisUrls = arrayListOf("image/bmp", "image/gif","image/ico","image/ico",
     "image/ief","image/x-icon","image/x-ms-bmp","image/jpeg", "image/jpg", "image/jpe", "image/pcx",
     "image/png", "image/svg+xml", "image/svg", "image/tiff", "image/tif", "image/vnd.djvu",
-    "image/vnd.djv", "image/vnd.wap.wbmp", "image/webp",  )
+    "image/vnd.djv", "image/vnd.wap.wbmp", "image/webp"
+)
 
 fun Context.isImageUri(uri: String): Boolean{
     if(liisUrls.contains(getMimeType(Uri.parse(uri)))){

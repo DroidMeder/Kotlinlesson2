@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         initialArray()
         letsDoJob()
-        println("..$liisUrls.size")
+        println("..${liisUrls.size}")
     }
 
     private fun letsDoJob() {
         binding.btnRand.setOnClickListener{
-            println("...$liisUrls.size")
+            println("...${liisUrls.size}")
             randomImage()
         }
         binding.btnSubmit.setOnClickListener{
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         val random = Random()
         val randomIndex = random.nextInt(liisUrls.size)
         println("---$randomIndex")
-        println("....$liisUrls.size")
+        println("....${liisUrls.size}")
         setImage(liisUrls[randomIndex])
     }
 
